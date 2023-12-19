@@ -50,7 +50,7 @@ console.log(url);
 ## Option 2
 
 1. Open up a new tab of a browser like Chrome, Brave or Firefox.
-2. Copy and paste the entire contents of `out/index.js` into the console.
+2. Copy and paste the entire contents of [out/index.js](./out/index.js) into the console.
 3. Update the default `"ens.eth"` name to the ENS name you want to check.
 4. Once updated, hit enter or return and wait for the URL to be fetched from Ethereum. You should see the URL printed on the next line in your browser console.
 
