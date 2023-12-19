@@ -1,0 +1,19 @@
+{
+  "name": "ensurl",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "check": "bun run index.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@ensdomains/ensjs": "^3.0.0",
+    "terser": "^5.26.0",
+    "viem": "^1.20.2"
+  }
+}
