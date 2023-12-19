@@ -3,7 +3,8 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "check": "bun run index.ts"
+    "check": "bun run index.ts",
+    "build": "bun build ./index.ts --outdir ./out --minify"
   },
   "devDependencies": {
     "bun-types": "latest"
